@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "in_stock": {
+      "type": "boolean"
+    },
+    "added_at": {
+      "type": "datetime"
+    }
+  }
+}
